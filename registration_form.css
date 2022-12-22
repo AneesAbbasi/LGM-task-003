@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+html{
+    background: linear-gradient( #000000 0%, #b9a5a5 90%);
+    height: 100%;
+}
+.box{
+    width: 46%;
+    border-right: 5px solid rgb(66, 60, 66);
+    border-bottom-right-radius: 5%;
+    text-align: center;
+    background: linear-gradient(  #a26fe4 0%, #dacc0f 90%);
+    height: 684px;
+}
+.box h1{
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+
+}
+nav{
+    background: linear-gradient( #30284b 0%, #2525ce 100%);
+    text-align: center;
+    font-size: 200%;
+    background-color: rgb(78, 32, 32);
+    
+}
+.Form{
+    margin: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 500px;
+    width: 86%;
+    text-align: center;
+}
+
+#nameDiv{
+    margin-top:20px;
+    
+}
+input[type="text" ]
+{
+    display: inline-block;
+    height: 35px;
+    width: 285px;
+    text-align: center;
+    font-size: 60%;
+    border-radius: 10px;
+    margin-left: 12px;
+}
+
+.input{
+    font-size: 30px;
+    color:#581010;
+    font-weight:700;
+    font-family: sans-serif;
+    margin-left: -180px;
+    margin-top:20px;
+    
+}
+.inputF{
+    font-size: 30px;
+    color:#000000;
+    font-weight:700;
+    font-family: sans-serif;
+    margin-left: -50px;
+    margin-top:20px;
+}
+input[type=radio] {
+    border: 0px;
+    width: 4%;
+    height: 2em;
+    margin-left: 24px;
+}
+#entry{
+    width:150px;
+    height: 40px;
+    font-size: 23px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(6, 250, 230);
+    color:rgb(56, 41, 0);
+    box-sizing:0 2px 2px 0 rgba(0,0,0,0.5) ;
+    align-self: center;
+    margin-top:80px;
+    border-radius: 10px;
+}
+#entry:hover{
+    background-color: rgb(182, 175, 255);
+    color:rgb(63, 7, 247);
+}
+.table{
+    position: fixed;
+    top: 7%;
+    right: 1%;
+    width: 52%;
+    margin-left: 50%;
+    margin-top: 16px;
+    padding: 4px;
+    text-align: center;
+    background: rgb(201, 168, 193);
+    color: rgb(179, 108, 108);
+}
+table, th,td{
+    width:100%;
+    border:2px solid rgb(70, 14, 14);
+    padding:10px;
+}
